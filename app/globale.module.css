@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Icons';
+    src: url('../public/font/Icons.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family:  'Roboto';
+    src: url('../public/font/Roboto-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RobotoCondensed';
+    src: url('../public/font/RobotoCondensed-Regular.woff2');
+    
+}
+
+.body{
+    margin: 0;
+    font-family: Roboto,Arial,Helvetica,sans-serif;
+    font-weight: 400;
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+}

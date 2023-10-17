@@ -1,0 +1,65 @@
+.logo{
+    --link-underline: none;
+    --link-blank-font: none;
+    --link-blank-content: none;
+    display: inline-block;
+    padding: 1em;
+    font-weight: 700;
+    line-height: 1.03175em;
+    letter-spacing: -.01em;
+    text-transform: uppercase;
+    vertical-align: middle;
+    text-indent: -0.1em;
+    color: var(--g800);
+    margin: -1em;
+}
+.logo::before{
+    width: 2.75rem;
+    height: 1rem;
+    margin-bottom: 0.1rem;
+    background-size: 2.75rem 1.125rem,2.75rem 1rem,0;
+    background-position: 0 -0.0625rem,0 0,0 0;
+    content: "";
+    display: block;
+    background-repeat: no-repeat,no-repeat,no-repeat;
+    background-image: url('../../../../public/logo1.svg')
+    ,linear-gradient(90deg,#000091,#000091 50%,#e1000f 0,#e1000f)
+    ,linear-gradient(90deg,#000,#000);
+}
+.logo::after{
+    content: "";
+    display: block;
+    background-repeat: no-repeat;
+    background-image: url('../../../../public/devise.svg');
+    min-width: 2.625rem;
+    background-size: 5.25rem 3.75rem;
+    background-position: 0 calc(100% + 1.875rem);
+    padding-top: 2.20833rem;
+    min-width: 2.625rem;
+    background-size: 5.25rem 3.75rem;
+    background-position: 0 calc(100% + 1.875rem);
+    padding-top: 2.20833rem;
+    font-size: 1rem;
+    
+}
+@media (max-width:47.99em){
+    .logo{
+       font-size: 1rem; 
+    }
+    .logo::before{
+        margin-bottom: 1rem;
+    }
+    
+}
+@media (min-width:48em) {
+    .logo{
+        font-size: 1.3125rem;
+    }
+    .logo::after{
+        min-width: 3.28125rem;
+        background-size: 6.5625rem 4.6875rem;
+        background-position: 0 calc(100% + 2.34375rem);
+        padding-top: 2.76042rem;
+    
+    }
+}

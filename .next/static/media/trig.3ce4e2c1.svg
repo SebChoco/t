@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="241px" height="241px" viewBox="0 0 241 241" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="filter_1">
+      <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0" />
+    </filter>
+    <path d="M240 0L240 240L0 240L240 0Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="DECO" transform="matrix(-1 0 0 -1 240.5 240.5)" opacity="0.1527056">
+    <path d="M240 0L240 240L0 240L240 0Z" id="Mask" fill="none" fill-rule="evenodd" stroke="none" />
+    <g clip-path="url(#mask_1)">
+      <g id="Group-16" transform="matrix(0.7071067 0.7071068 0.7071068 -0.7071067 -225.51324 78.44214)" filter="url(#filter_1)">
+        <path d="M0 0L10 0L10 444L0 444L0 0Z" transform="translate(252.43712 0.70710677)" id="Rectangle" fill="#AB8EFF" fill-rule="evenodd" stroke="none" />
+        <path d="M0 0L10 0L10 444L0 444L0 0Z" transform="translate(335.87573 0.70710677)" id="Rectangle" fill="#AB8EFF" fill-rule="evenodd" stroke="none" />
+        <path d="M0 0L10 0L10 444L0 444L0 0Z" transform="translate(420.02142 -4.5474735E-13)" id="Rectangle" fill="#AB8EFF" fill-rule="evenodd" stroke="none" />
+        <path d="M0 0L10 0L10 444L0 444L0 0Z" transform="translate(294.15643 1.364242E-12)" id="Rectangle" fill="#AB8EFF" fill-rule="evenodd" stroke="none" />
+        <path d="M0 0L10 0L10 444L0 444L0 0Z" transform="translate(377.59503 9.094947E-13)" id="Rectangle" fill="#AB8EFF" fill-rule="evenodd" stroke="none" />
+        <path d="M0 0L10 0L10 444L0 444L0 0Z" transform="translate(461.03363 1.4142135)" id="Rectangle" fill="#AB8EFF" fill-rule="evenodd" stroke="none" />
+        <path d="M0 0L10 0L10 444L0 444L0 0Z" transform="translate(273.65033 0.70710677)" id="Rectangle" fill="#AB8EFF" fill-rule="evenodd" stroke="none" />
+        <path d="M0 0L10 0L10 444L0 444L0 0Z" transform="translate(357.08893 0.70710677)" id="Rectangle" fill="#AB8EFF" fill-rule="evenodd" stroke="none" />
+        <path d="M0 0L10 0L10 444L0 444L0 0Z" transform="translate(439.8204 1.4142135)" id="Rectangle" fill="#AB8EFF" fill-rule="evenodd" stroke="none" />
+        <path d="M0 0L10 0L10 444L0 444L0 0Z" transform="translate(314.6625 0.70710677)" id="Rectangle" fill="#AB8EFF" fill-rule="evenodd" stroke="none" />
+        <path d="M0 0L10 0L10 444L0 444L0 0Z" transform="translate(398.80823 9.094947E-13)" id="Rectangle" fill="#AB8EFF" fill-rule="evenodd" stroke="none" />
+        <path d="M0 0L10 0L10 444L0 444L0 0Z" transform="translate(482.24683 1.4142135)" id="Rectangle" fill="#AB8EFF" fill-rule="evenodd" stroke="none" />
+        <path d="M0 0L10 0L10 444L0 444L0 0Z" transform="translate(9.094947E-13 1.4142135)" id="Rectangle" fill="#AB8EFF" fill-rule="evenodd" stroke="none" />
+        <path d="M0 0L10 0L10 444L0 444L0 0Z" transform="translate(84.145706 2.1213202)" id="Rectangle" fill="#AB8EFF" fill-rule="evenodd" stroke="none" />
+        <path d="M0 0L10 0L10 444L0 444L0 0Z" transform="translate(167.5843 0.70710677)" id="Rectangle" fill="#AB8EFF" fill-rule="evenodd" stroke="none" />
+        <path d="M0 0L10 0L10 444L0 444L0 0Z" transform="translate(42.426407 1.4142135)" id="Rectangle" fill="#AB8EFF" fill-rule="evenodd" stroke="none" />
+        <path d="M0 0L10 0L10 444L0 444L0 0Z" transform="translate(125.1579 0.70710677)" id="Rectangle" fill="#AB8EFF" fill-rule="evenodd" stroke="none" />
+        <path d="M0 0L10 0L10 444L0 444L0 0Z" transform="translate(208.5965 2.1213202)" id="Rectangle" fill="#AB8EFF" fill-rule="evenodd" stroke="none" />
+        <path d="M0 0L10 0L10 444L0 444L0 0Z" transform="translate(21.213203 1.4142135)" id="Rectangle" fill="#AB8EFF" fill-rule="evenodd" stroke="none" />
+        <path d="M0 0L10 0L10 444L0 444L0 0Z" transform="translate(104.6518 1.4142135)" id="Rectangle" fill="#AB8EFF" fill-rule="evenodd" stroke="none" />
+        <path d="M0 0L10 0L10 444L0 444L0 0Z" transform="translate(187.3833 2.1213202)" id="Rectangle" fill="#AB8EFF" fill-rule="evenodd" stroke="none" />
+        <path d="M0 0L10 0L10 444L0 444L0 0Z" transform="translate(62.932503 2.1213202)" id="Rectangle" fill="#AB8EFF" fill-rule="evenodd" stroke="none" />
+        <path d="M0 0L10 0L10 444L0 444L0 0Z" transform="translate(146.37111 0.70710677)" id="Rectangle" fill="#AB8EFF" fill-rule="evenodd" stroke="none" />
+        <path d="M0 0L10 0L10 444L0 444L0 0Z" transform="translate(229.80971 2.1213202)" id="Rectangle" fill="#AB8EFF" fill-rule="evenodd" stroke="none" />
+      </g>
+    </g>
+  </g>
+</svg>

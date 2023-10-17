@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="663px" height="664px" viewBox="0 0 663 664" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Rectangle</title>
+    <g id="✅ELEMENTS_LANDING_ENT_UI_01" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1920_ENT_NAV_02" transform="translate(-1241.000000, -682.000000)" fill="#4B00A4" fill-rule="nonzero">
+            <g id="BG" transform="translate(0.000000, 0.000000)" >
+                <path d="M1903.53394,682.757313 L1241.03629,682.757313 L1241.03629,1345.25496 L1903.53394,682.757313 Z M1867.321,697.757 L1256.036,1309.041 L1256.036,697.757 L1867.321,697.757 Z" id="Rectangle" transform="translate(1572.285110, 1014.006137) scale(1, -1) translate(-1572.285110, -1014.006137) " vector-effect="non-scaling-stroke"></path>
+            </g>
+        </g>
+    </g>
+</svg>

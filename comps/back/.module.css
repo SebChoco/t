@@ -1,0 +1,124 @@
+.r{
+    position: relative;
+    z-index: 1;
+    width: 0;
+    height: 0;
+    border-left:0px solid transparent ;
+    border-right: 255px solid #f75a22;
+    border-bottom: 255px solid transparent;
+}
+.j{
+    height: 0;
+    width: 0;
+    position: absolute;
+    left: 255px;
+    right: auto;
+    bottom: auto;
+    z-index: 1;
+    border-left: 665px solid #facd01;
+    border-right: 0 solid transparent;
+    border-bottom: 665px solid transparent;
+}
+.main{
+    background-color: #1de2d0;
+    height: 294px;
+}
+.b{
+    position: absolute;
+    background-image: url('../../public/trib.svg');
+    right: auto;
+    left: 147px;
+    top: 88px;
+    bottom: auto;
+    z-index: 2;
+    width: 176px;
+    height: 176px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.img{
+    position: absolute;
+    right: auto;
+    left: calc(50% - 135px);
+    top: auto;
+    bottom: 0;
+    z-index: 3;
+    width: 263px;
+    height: 192px;
+    background-image: url('../../public/top.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media (min-width : 768px){
+    .main{
+        height: 411px;
+    }
+    .img{
+        bottom: 38px;
+        left: calc(50% - 184px);
+        width: 368px;
+        height: 269px;
+    }
+}
+
+@media (min-width: 1024px){
+    .r{
+        border-right: 360px solid #f75a22;
+        border-bottom: 360px solid transparent;
+    }
+    .j{
+        border-left: 936px solid #facd01;
+        border-bottom: 936px solid transparent;
+    }
+    .img{
+        left: 255px;
+        bottom: 28px;
+        width: 415px;
+        height: 303px;
+    }
+}
+
+@media (min-width : 1440px){
+    .r{
+        border-right: 480px solid #f75a22;
+        border-bottom: 480px solid transparent;
+    }
+    .j{
+        left: 360px;
+        border-left: 936px solid #facd01;
+        border-bottom: 936px solid transparent;
+    }
+    .main{
+        height: 410px;
+    }
+    .b{
+        top: 121px;
+        left: 207px;
+        width: 248px;
+        height: 248px;
+    }
+    .img{
+        left: calc(50% - 216px);
+        bottom: 17px;
+        width: 432px;
+        height: 316px;
+    }
+}
+
+@media (min-width: 1920px){
+    .j{
+        left: 480px;
+        border-left: 1247px solid #facd01;
+        border-bottom: 1247px solid transparent;
+    }
+    .main {
+        height: 540px;
+    }
+    .b{
+        width: 330px;
+        height: 330px;
+        top: 165px;
+        left: 277px;
+    }
+}

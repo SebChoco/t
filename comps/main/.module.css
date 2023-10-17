@@ -1,0 +1,141 @@
+.un{
+    height: 294px;
+    background-color: #1de2d0;
+    position: relative;
+}
+.un::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 1920px;
+    height: 768px;
+    background-color: #1de2d0;
+}
+.un::after{
+    content: "";
+    display: block;
+    position: absolute;
+    right: auto;
+    left: calc(50% - 135px);
+    top: auto;
+    bottom: 0;
+    z-index: 3;
+    width: 263px;
+    height: 192px;
+    background-image: url('../../public/top.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.deux{
+    position: relative;
+}
+.trois{
+    position: relative;
+    width: 0;
+    height: 0;
+    border-left: 0 solid transparent;
+    border-right: 255px solid #f75a22;
+    border-bottom: 255px solid transparent;
+}
+.trois::before{
+    content: "";
+    display: block;
+    position: absolute;
+    right: auto;
+    left: 147px;
+    top: 88px;
+    bottom: auto;
+    z-index: 2;
+    width: 176px;
+    height: 176px;
+    background-image: url('../../public/trib.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.trois::after{
+    content: "";
+    display: block;
+    position: absolute;
+    right: auto;
+    left: 255px;
+    top: 0;
+    bottom: auto;
+    z-index: 1;
+    width: 0;
+    height: 0;
+    border-left: 665px solid #facd01;
+    border-right: 0 solid transparent;
+    border-bottom: 665px solid transparent;
+}
+@media (min-width : 768px){
+    .un{
+        height: 411px;
+    }
+    .un::after{
+        bottom: 38px;
+        left: calc(50% - 184px);
+        width: 368px;
+        height: 269px;
+    }
+}
+@media (min-width: 1024px){
+    .un::after{
+        left: 255px;
+        bottom: 28px;
+        width: 415px;
+        height: 303px;
+    }
+}
+@media (min-width : 1440px){
+    .un{
+        height: 410px;
+    }
+    .un::before{
+        height: 1034px;
+    }
+    .un::after{
+        left: calc(50% - 216px);
+        bottom: 17px;
+        width: 432px;
+        height: 316px;
+    }
+    .trois{
+        border-right: 360px solid #f75a22;
+        border-bottom: 360px solid transparent;
+    }
+    .trois::before{
+        top: 121px;
+        left: 207px;
+        width: 248px;
+        height: 248px;
+    }
+    .trois::after{
+        left: 360px;
+        border-left: 936px solid #facd01;
+        border-bottom: 936px solid transparent;
+    }
+    
+}
+@media (min-width : 1920px){
+    .un{
+        height: 540px;
+    }
+    .trois{
+        border-right: 480px solid #f75a22;
+        border-bottom: 480px solid transparent;
+    }
+    .trois::before{
+        width: 330px;
+        height: 330px;
+        top: 165px;
+        left: 277px;
+    }
+    .trois::after{
+        left: 480px;
+        border-left: 1247px solid #facd01;
+        border-bottom: 1247px solid transparent;
+    }
+}
